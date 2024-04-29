@@ -1,4 +1,6 @@
 # 4  EXECUTION OF NETWORK COMMANDS
+## DEVELOPED BY : NITHYA D
+## REG.NO : 212223240110
 
 ## AIM : 
 Use of Network commands in Real Time environment.
@@ -28,6 +30,9 @@ This commands includes
 ## PROGRAM :
 ### CLIENT :
 ```
+Developed by : NITHYA D
+Reg.no : 212223240110
+
 import socket 
 from pythonping import ping
 s = socket.socket()
@@ -53,6 +58,9 @@ while True:
 ```
 ### SERVER :
 ```
+Developed by : NITHYA D
+Reg.no : 212223240110
+ 
 import socket
 s = socket.socket()
 s.connect(('localhost', 8000))
@@ -72,6 +80,9 @@ finally:
 ```
 ### TRACECODE COMMAND :
 ```
+Developed by : NITHYA D
+Reg.no : 212223240110
+
 from scapy.all import *
 target = ["www.google.com"]
 result, unans = traceroute(target,maxttl=32)
